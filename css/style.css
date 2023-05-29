@@ -1,0 +1,144 @@
+*{
+    background: #d7fad3;
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.Logo{
+    padding-top: 10px;
+    margin-left: 10px; 
+    width: 100px;
+    height: 48px;
+    left: 10px;
+    top: 40px;
+
+}
+main{
+    display: flex;
+    margin:0 0 50px 80px;
+}
+.EnterTex{
+    border: none;
+    color:#710000;
+    margin-top:40px;
+
+}
+::placeholder{color:#710000;}
+    .EnterTex:focus{
+        outline:none;
+    }
+
+.FinalText{
+    background: #ffd6eb;
+    background-image: url("/Imagenes/Imagen.png");
+    background-repeat:no-repeat;
+    border:none;
+    border-radius: 20px;
+    color: #710000;
+    margin-left: 90px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+
+}
+.FinalText:focus{
+    outline:none;
+}
+.buttton{
+    display: flex;
+    margin-top: 18px;
+}
+.btn_decrypt{
+    background-color: #69b578;
+    border: 1px solid #69b578;
+    border-radius: 24px;
+    color: #fff;
+    cursor:pointer;
+    height: 67px;
+    margin-left: 30px;
+    width:328px;
+    transition: 0.5s all;
+
+}
+.mensaje1{
+    position: absolute;
+    box-sizing: border-box;
+    top:320px;
+    left:900px;
+
+}
+.btn_decrypt:hover{
+    background-color: #000;
+    font-weight: bold;
+    transform: scale(1.1);
+    /*La propiedad scale() del atributo transform permite cambiar el tamaño del elemento*/
+    /*transform:rotate(50deg)*/
+    /*La propiedad rotate() del atributo transform permite rotar el elemento si queremos aplicar ambos efectos
+    al tiempo podemos agregar ambos efectos utilizando solo un transform asi: 
+    transform: scale(1.1) rotate(50deg)*/
+}
+.btn_decrypt:active{
+    background-color: #000;
+    font-weight: bold;
+    transform: scale(0.8);
+}
+.btn_encrypt{
+    background-color: #254d32;
+    border: 1px solid #254d32;
+    border-radius: 24px;
+    color: #fff;
+    cursor:pointer;
+    height: 67px;
+    width:328px;
+    transition: 0.5s all;
+
+}
+.btn_encrypt:hover{
+    background-color: #000;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.btn_encrypt:active{
+    background-color: #000;
+    font-weight: bold;
+    transform: scale(0.8);
+}
+.mensaje1{
+    color: #000;
+    font-weight: bold;
+}
+.coppy{
+    background-color: #ccaef0;
+    border: 1px solid #ccaef0;
+    border-radius: 30px;
+    color: #fff;
+    cursor:pointer;
+    height: 67px;
+    position:absolute;
+    width:336px;
+    margin-left: 108px ;
+    margin-top: 402px;
+    transition: 0.5s all;
+
+}
+.coppy:hover{
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.coppy:active{
+    font-weight: bold;
+    transform: scale(0.8);
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    padding: 5px 0;
+}
+
+footer p{
+    color: #000;
+    font-size: 15px;
+    margin:0;
+}
